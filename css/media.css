@@ -1,0 +1,275 @@
+@media (max-width: 1295px) {
+	div.last-f div.last-l div.block div.right {
+		display: flex;
+	}
+	div.last-f div.last-l div.block div.left {
+		width: 18%;
+	}
+	div.last-f div.last-r div.zakaz table.zakaz thead tr td {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 1230px) {
+	div.last-f div.last-l {
+		width: 100%;
+	}
+	div.last-f div.last-r {
+		width: 65%;
+	}
+	div.last-f div.last-r div.calendar {
+		border-top: 20px solid #EBF0F7;	
+	}
+	div.last-f div.last-l div.block div.right a {
+		font-size: 13px;
+	}
+	div.last-f div.last-l div.block div.right a span {
+		width: 22px;
+		height: 22px;
+		font-size: 10px;
+	}
+	div.last-f div.last-l div.last-nav div.right div.select select {
+		font-size: 14px;
+	}
+	div.last-f div.last-l div.last-nav div.right span {
+		font-size: 16px;
+	}
+	div.last-f div.last-l div.last-nav div.right div.select i.fa {
+		font-size: 16px;
+	}
+	div.last-f div.last-r div.zakaz table.zakaz thead tr td {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 1200px) {
+	main table.t-5 {
+		width: 100%;
+	}
+	main nav {
+		width: 100%;
+	}
+	main div.otchet {
+		margin-top: 1em;
+	}
+	main div.scroll-bron.admin3 {
+		width: 100%;
+	}
+	main div.anketa {
+		width: calc(100% / 1.3);
+	}
+	main div.oplata {
+		width: calc(100% / 1.3);
+	}
+}
+
+@media (max-width: 1035px) {
+	div.last-f div.last-l div.block div.right a {
+		font-size: 12px;
+	}
+	div.last-f div.last-r {
+		width: 100%;
+	}
+	main div.main-1 table.p {
+		margin: 5px 0px;
+	}
+	main div.rassrochka {
+		margin: 5px 0px;
+	}
+	main a.pechat {
+		margin: 0px 0px;
+	}
+	main div.b1 {
+		/* margin: 0px 0px; */
+	}
+}
+
+@media (max-width: 990px) {
+	main {
+	    padding-top: 15px!important;
+	}
+	aside {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100vh;
+		transform: translateX(-100%);
+		z-index: 100;
+	}
+	section {
+		width: 100%;
+	}
+	header div.left {
+		padding-left: 60px;
+	}
+	header div.left a {
+		display: inline-block;
+		left: 2px;
+	}
+}
+
+@media (max-width: 675px) {
+	div.last-f div.last-l div.block div.right {
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		width: calc(100% - 110px);
+	}
+	div.last-f div.last-l div.block div.right a {
+		margin-top: 10px;
+	}
+	div.last-f div.last-l div.block div.left {
+		width: 110px;
+	}
+}
+
+@media (max-width: 650px) {
+	main div.anketa {
+		width: 100%;
+	}
+	main div.oplata {
+		width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	main table.t-7 {
+		min-width: 900px;
+	}
+	main div.scroll7 {
+		overflow-x: scroll;
+	}
+	header div.left h1 {
+		display: none;
+	}
+	header div.left h2 {
+		display: none;
+	}
+	header {
+		padding: 15px;
+	}
+	main table.t-5 {
+		min-width: 700px;
+	}
+	main div.scroll-bron {
+		overflow-x: scroll;
+	}
+	main div.rassrochka table.rassrochka {
+		min-width: 700px;
+	}
+	main div.rassrochka {
+		overflow-x: scroll;
+	}
+}
+
+@media (max-width: 500px) {
+	aside {
+		width: 250px;
+	}
+	main nav {
+		flex-wrap: wrap;
+	}
+	main nav div.right {
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+	main nav div.right > div:first-child {
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	main nav div.right a {
+		margin-right: 0px;
+	}
+	main nav div.right a::after {
+		display: none;
+	}
+	main nav div.left {
+		width: 100%;
+		text-align: center;
+	}
+	main div.oplata > h1 {
+		font-size: 18px;
+	}
+	main div.oplata div.oplata-main div.right p {
+		display: flex;
+		flex-wrap: wrap-reverse;
+		padding-right: 12px;
+	}
+	main div.oplata div.oplata-main div.right p a {
+		padding: 8px 25px;
+		margin-top: 5px;
+	}
+	div.last-f div.last-l div.block div.left {
+		width: 100%;
+	}
+	div.last-f div.last-l div.block div.right {
+		width: 100%;
+	}
+	div.last-f div.last-l div.block {
+		flex-wrap: wrap;
+	}
+	div.last-f div.last-l div.block div.right a {
+		flex-grow: 1;
+		margin: 0px 8px;
+		margin-top: 12px;
+	}
+	div.last-f div.last-l div.last-nav {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 425px) {
+	div.last-f div.last-l div.last-nav div.right {
+		margin-top: 1em;
+	}
+	div.last-f div.last-l div.last-nav {
+		padding-bottom: 0px;
+	}
+	div.last-f div.last-l table.block {
+		min-width: 400px;
+	}
+	div.last-f div.last-l div.table-block {
+		overflow-x: scroll;
+	}
+	div.last-f div.last-r div.zakaz div.scroll-zakaz {
+		overflow-x: scroll;
+	}
+	div.last-f div.last-r div.zakaz table.zakaz {
+		min-width: 380px;
+	}
+	main div.scroll-bron::-webkit-scrollbar {
+		height: 5px;
+	}
+	main div.scroll7::-webkit-scrollbar {
+		height: 5px;
+	}
+	body::-webkit-scrollbar {
+		width: 5px;
+	}
+	main div.m-nav {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	main div.m-nav div.left-s {
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+	main div.main-1 div.logo {
+		text-align: center;
+	}
+}
+
+@media (max-width: 400px) {
+	main div.oplata div.oplata-main div.right p {
+		padding-right: 0px;
+	}
+}
+
+
+
+
+
+
+
+
